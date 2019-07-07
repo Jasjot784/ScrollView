@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is your name and where do you live?"
+                android:textColor="@color/colorAccent"
+                android:padding="15sp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/Answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:padding="15sp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/Question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:textColor="@color/colorAccent"
+                android:text="What are your views regarding passion and what type of hobbies you have"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/Answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:hint="Answer"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/Question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="Do you belong to a middle class background"
+                android:padding="15sp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/Answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer"
+                android:padding="15sp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/Question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:textColor="@color/colorAccent"
+                android:text="What would you prefer to do if are in your dream place"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/Answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:hint="Answer"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/Question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:textColor="@color/colorAccent"
+                android:text="Which type of food do you like and why?"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/Answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:hint="Answer"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/Question6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you single(Optional)?"
+                android:textColor="@color/colorAccent"
+                android:padding="15sp"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/Answer6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:hint="Answer"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
